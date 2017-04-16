@@ -16,8 +16,8 @@
   <widget class="SYPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>120</y>
+     <x>140</x>
+     <y>80</y>
      <width>60</width>
      <height>14</height>
     </rect>
@@ -41,7 +41,20 @@
     </font>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Button</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_style">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>crystal</string>
    </property>
   </widget>
  </widget>

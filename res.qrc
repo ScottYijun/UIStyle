@@ -6,5 +6,9 @@
         <file>images/switch_down.png</file>
         <file>images/switch_hover.png</file>
         <file>images/switch_normal.png</file>
+        <file>images/crystal_1.png</file>
+        <file>images/crystal_2.png</file>
+        <file>images/crystal_3.png</file>
+        <file>images/crystal_4.png</file>
     </qresource>
 </RCC>

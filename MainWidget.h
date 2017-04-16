@@ -15,6 +15,8 @@ public:
     explicit MainWidget(QWidget *parent = 0);
     ~MainWidget();
     void initImages();
+    void pushButtonStyle();
+    void labelStyle();
 
 private:
     Ui::MainWidget *ui;

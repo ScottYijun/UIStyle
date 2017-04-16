@@ -3,6 +3,17 @@
 //git push -u origin master
 
 
+//http://www.cnblogs.com/emouse/archive/2013/07/14/3189319.html
+//http://www.360doc.com/content/11/1122/10/7899729_166398154.shtml
+//http://www.cnblogs.com/xj626852095/p/3648119.html
+//http://blog.163.com/qimo601@126/blog/static/15822093201432494134937/
+//https://my.oschina.net/upday7/blog/109597
+//http://www.xuebuyuan.com/1832172.html
+//http://blog.csdn.net/Qyee16/article/details/51234794
+
+
+
+
 #include "sypushbutton.h"
 #include <QPixmap>
 #include <QPainter>
