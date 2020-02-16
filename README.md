@@ -3,7 +3,7 @@ Qt界面学习
 
 
 
-1.添加顶部与左边导航界面UI的Demo
+1.顶部与左侧导航界面UI的Demo
 
 ![image](https://github.com/ScottYijun/UIStyle/blob/master/TopLeftNavigation.png)
 
