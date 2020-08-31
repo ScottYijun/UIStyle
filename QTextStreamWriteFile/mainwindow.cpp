@@ -23,6 +23,7 @@ void MainWindow::initConnect()
 {
     connect(ui->pushButton_writeFile, SIGNAL(clicked()), this, SLOT(slotWirteFile()));
     connect(ui->pushButton_readFile, SIGNAL(clicked()), this, SLOT(slotReadFile()));
+    connect(this, SIGNAL(signalWirteFileEnd(int)), this, SLOT(slotWirteFileEnd(int)));
 }
 
 void MainWindow::slotWirteFile()
@@ -58,8 +59,10 @@ void MainWindow::slotWirteFile()
     out << temp << endl;
     qDebug() << "temp=======================" << temp;
     out.flush();
-    file.close();
     //注意写入方式的选择，注意写完后的关闭操作！
+    file.close();
+
+    emit signalWirteFileEnd(39);
 }
 
 void MainWindow::slotReadFile()
@@ -89,4 +92,7 @@ void MainWindow::slotReadFile()
     }
 }
 
-
+void MainWindow::slotWirteFileEnd(int ret)
+{
+    qDebug() << "ret=======================" << ret;
+}

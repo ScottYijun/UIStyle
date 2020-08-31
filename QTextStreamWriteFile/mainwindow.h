@@ -16,9 +16,13 @@ public:
     ~MainWindow();
     void initConnect();
 
+signals:
+    void signalWirteFileEnd(int ret);
+
 public slots:
     void slotWirteFile();
     void slotReadFile();
+    void slotWirteFileEnd(int ret);
 
 private:
     Ui::MainWindow *ui;
