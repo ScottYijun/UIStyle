@@ -56,11 +56,15 @@ void MainWindow::slotOpenFile()
         QFileInfo info(filePath);
         infoList += tr("fileName: %1\n").arg(info.fileName());
         infoList += tr("author: %1\n").arg(info.owner());
+        infoList += tr("ownerId: %1\n").arg(info.ownerId());
+        infoList += tr("group: %1\n").arg(info.group());
+        infoList += tr("groupId: %1\n").arg(info.groupId());
         infoList += tr("fileSize: %1 KB\n").arg(info.size());
         infoList += tr("createdTime: %1\n").arg(info.birthTime().toString("yyyy-MM-dd hh:mm:ss"));
         infoList += tr("modifiedTime: %1\n").arg(info.lastModified().toString("yyyy-MM-dd hh:mm:ss"));
         infoList += tr("lastReadTime: %1\n").arg(info.lastRead().toString("yyyy-MM-dd hh:mm:ss"));
         ui->textEdit->setText(infoList);
+
 
         // Ù–‘
         bool isDir = info.isDir();
