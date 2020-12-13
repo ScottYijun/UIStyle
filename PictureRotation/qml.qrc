@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>UserInfoPopup.qml</file>
+        <file>res/aa.png</file>
+        <file>res/bb.png</file>
+    </qresource>
+    <qresource prefix="/res"/>
+</RCC>
